@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-image: url("https://thumbs.dreamstime.com/z/beautiful-autumn-background-flying-falling-colorful-leaves-bokeh-frame-beautiful-autumn-background-flying-falling-99139534.jpg");
+            background-repeat: no-repeat;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        form {
+            position: absolute;
+            width: 250px;
+            height: auto;
+            top: 40%;
+            left: 40%;
+            border: 2px solid whitesmoke;
+        }
+
+        table {
+            padding: 30px;
+        }
+
+        input:focus {
+            outline: none;
+            color: white;
+            background-color: rgba(70, 130, 180, 0.35);
+        }
+
+        button:hover {
+            background-color: rgb(243, 108, 131);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <form id="form" action="Message.html">
+            <table>
+                <tr>
+                    <td>
+                        <h3>Create Gmail Account</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" name="username" id="un" placeholder="Full Name" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="tel" name="number" id="num" placeholder="Contact Number" /></td>
+                </tr>
+                <tr>
+                    <td> <input type="email" name="email" id="email" placeholder="Enter Email id" /> </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <button type="reset">Reset</button>
+
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
